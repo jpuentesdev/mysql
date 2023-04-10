@@ -25,7 +25,7 @@ FROM Country;
 
 -- 1.2)
 CREATE VIEW VistaEuropa AS
-SELECT City.Name Nombre, Country.Name Pais, District Distrito, Population Poblacion,
+SELECT City.Name Nombre, Country.Name Pais, District Distrito, City.Population Poblacion,
 Country.Code Codigo_Pais, Continent Continente
 FROM City
 INNER JOIN Country ON City.CountryCode = Country.Code
