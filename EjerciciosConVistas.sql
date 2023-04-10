@@ -13,6 +13,8 @@ de los campos al castellano
 de los paises junto con el nombre de su capital. Los campos de la vista en castellano
 */
 use world;
+select * from country;
+select * from city;
 
 -- 1.1)
 CREATE VIEW Paises AS
@@ -20,7 +22,7 @@ SELECT Code Codigo, Name Nombre, Continent Continente, Region Region,
 SurfaceArea Area, IndepYear Anio_Independencia, Population Poblacion,
 LifeExpectancy Esperanza_Vida, GNP PIB, GNPOld PIB_Anterior,
 LocalName Nombre_Local, GovernmentForm Forma_Gobierno, HeadOfState Jefe_Estado,
-Capital Capital
+Capital Capital, Code2
 FROM Country;
 
 -- 1.2)
