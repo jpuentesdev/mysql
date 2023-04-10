@@ -51,7 +51,7 @@ select country.name, city.name
 from country
 inner join city on code = countryCode;
 
-create or replace view paisesYciudades (pias, ciudad)
+create or replace view paisesYciudades (pais, ciudad)
 as
 select country.name, city.name
 from country
