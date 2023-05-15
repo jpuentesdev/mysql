@@ -1,5 +1,9 @@
 -- MATHEMATICAL FUNCTIONS:
 -- https://dev.mysql.com/doc/refman/8.0/en/mathematical-functions.html
+/*
+MATHEMATICAL FUNCTIONS: mod, sqrt, pi, round, ceil, floor, pow, round
+STRING FUNCTIONS: char_length, length, instr, strcmp, concat, right, left, reverse, upper, trim
+*/
 
 -- MOD() --> Resto de una división
 select mod(6,5) resto;
